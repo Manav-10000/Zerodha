@@ -7,15 +7,15 @@ import HomePage from './landing_page/home/HomePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <HomePage/>
-  </React.StrictMode>
+  // <React.StrictMode>
+  //   <HomePage/>
+  // </React.StrictMode>
   
-  //  <BrowserRouter>
-  //  <Routes>
-  //    <Route path="/" element={<HomePage/>}></Route>
-  //  </Routes>
-  //  </BrowserRouter>
+   <BrowserRouter>
+   <Routes>
+     <Route path="/" element={<HomePage/>}></Route>
+   </Routes>
+   </BrowserRouter>
 );
 
 
