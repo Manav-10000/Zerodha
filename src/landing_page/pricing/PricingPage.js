@@ -1,7 +1,19 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
+// , { PureComponent } 
+import Hero from '../home/Hero';
+import Brokerage from './Brokerage';
+import Navbar from '../Navbar';
+import OpenAccount from '../OpenAccount';
+import Footer from '../Footer';
+
+
 function PricingPage() {
     return ( 
-        <h1>PricingPage</h1>
+       <>
+        <Hero/>
+        <OpenAccount/>
+        <Brokerage/>
+       </> 
      );
 }
 
